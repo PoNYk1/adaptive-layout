@@ -1,0 +1,503 @@
+* {
+  font-family: 'Lato', sans-serif;
+  line-height: 23px;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 55px !important;
+  font-weight: 200;
+  color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.wraper {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.button {
+  padding: 12px 13px;
+  background: #1bbc9b;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .1s;
+}
+.button:hover {
+  background: #16a086;
+}
+
+.sec {
+  padding: 60px 0;
+}
+
+.white-header {
+  color: #fff;
+}
+
+.header-top {
+  width: 100%;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-top .header-logo {
+  display: flex;
+  align-items: flex-start;
+}
+.header-top .header-logo img {
+  width: 47px;
+  height: 47px;
+}
+.header-top .header-logo span {
+  margin-left: 15px;
+}
+.header-top .header-logo span p {
+  margin: 0;
+  line-height: 12px;
+}
+.header-top .header-logo span h3 {
+  margin-top: 5px;
+}
+.header-top .menu-bar {
+  display: none;
+}
+.header-top .header-menu {
+  display: flex;
+  margin-right: 15px;
+  position: initial;
+}
+.header-top .header-menu li {
+  list-style: none;
+  transition: .3s;
+  display: block;
+  padding: 10px 14px;
+}
+.header-top .header-menu li a {
+  color: #444444;
+}
+.header-top .header-menu li:hover {
+  background: #1bbc9b;
+}
+.header-top .header-menu li:hover a {
+  color: #fff;
+}
+
+.header-baner {
+  width: 100%;
+  height: 450px;
+  background: url("../img/jumbotron.jpg") center top no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-baner span {
+  font-weight: 600;
+}
+.header-baner p {
+  max-width: 575px;
+  font-weight: 200;
+  margin: 45px 0;
+}
+
+.sec-1 {
+  color: #444444;
+}
+.sec-1 .button-arr {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.sec-1 .button-arr div {
+  margin: 0px 12px;
+}
+.sec-1 .link-arr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 45px;
+}
+.sec-1 .link-arr div {
+  margin: 15px 20px;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+.sec-1 .link-arr div .p-content {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  transition: .3s;
+  background: rgba(27, 188, 155, 0.7);
+  opacity: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec-1 .link-arr div .p-content a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+}
+.sec-1 .link-arr div .p-content h3 {
+  margin-top: 15px;
+  font-weight: 400;
+}
+.sec-1 .link-arr div .p-content p {
+  font-weight: 200;
+  margin: 0;
+}
+.sec-1 .link-arr div .p-content:hover {
+  opacity: 1;
+}
+.sec-1 .link-arr .p1 {
+  background: url("../img/img-1.png") center center no-repeat;
+}
+.sec-1 .link-arr .p2 {
+  background: url("../img/img-2.png") center center no-repeat;
+}
+.sec-1 .link-arr .p3 {
+  background: url("../img/img-3.png") center center no-repeat;
+}
+.sec-1 .link-arr .p4 {
+  background: url("../img/img-4.png") center center no-repeat;
+}
+.sec-1 .link-arr .p5 {
+  background: url("../img/img-5.png") center center no-repeat;
+}
+.sec-1 .link-arr .p6 {
+  background: url("../img/img-6.png") center center no-repeat;
+}
+.sec-1 .link-arr .p7 {
+  background: url("../img/img-1.png") center center no-repeat;
+}
+.sec-1 .link-arr .p8 {
+  background: url("../img/img-2.png") center center no-repeat;
+}
+
+.sec-2 {
+  background: #1bbc9b;
+}
+.sec-2 .card-arr {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.sec-2 .card-arr .card {
+  width: 220px;
+}
+.sec-2 .card-arr .card .card-top {
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-2 .card-arr .card .card-top:hover > .cart-contact {
+  opacity: 1;
+}
+.sec-2 .card-arr .card .card-top .cart-contact {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(27, 188, 155, 0.7);
+  font-size: 30px;
+  opacity: 0;
+  transition: .1s;
+}
+.sec-2 .card-arr .card .card-top .cart-contact a {
+  color: #fff;
+}
+.sec-2 .card-arr .card .card-avatar1 {
+  background: url(../img/ava-1.png) no-repeat;
+}
+.sec-2 .card-arr .card .card-avatar2 {
+  background: url(../img/ava-2.png) no-repeat;
+}
+.sec-2 .card-arr .card .card-avatar3 {
+  background: url(../img/ava-3.png) no-repeat;
+}
+.sec-2 .card-arr .card .card-content {
+  min-height: 190px;
+  background: #fff;
+  padding: 15px 10px;
+  text-align: center;
+}
+.sec-2 .card-arr .card .card-content h4 {
+  margin: 0;
+  font-weight: 400;
+}
+.sec-2 .card-arr .card .card-content i {
+  font-weight: 600;
+  font-size: 14px;
+}
+.sec-2 .card-arr .card .card-content p {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.sec-3 {
+  background: #ecf0f1;
+}
+.sec-3 .form-and-info {
+  margin-top: 55px;
+  display: flex;
+  justify-content: flex-start;
+}
+.sec-3 .form-and-info form {
+  width: 50%;
+}
+.sec-3 .form-and-info form .border {
+  border: 2px solid #bec3c7;
+}
+.sec-3 .form-and-info form .form-top {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-3 .form-and-info form .form-top input {
+  width: 50%;
+  height: 50px;
+  padding-left: 13px;
+}
+.sec-3 .form-and-info form .form-top input::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: #bec3c7;
+}
+.sec-3 .form-and-info form .form-top input:first-child {
+  margin-right: 20px;
+}
+.sec-3 .form-and-info form textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 15px;
+}
+.sec-3 .form-and-info form textarea::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: #bec3c7;
+}
+.sec-3 .form-and-info form .form-submit {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.sec-3 .form-and-info form .form-submit input {
+  border: none;
+  padding: 12px 30px;
+}
+.sec-3 .form-and-info .info {
+  margin-left: 20px;
+  width: 220px;
+}
+.sec-3 .form-and-info .info h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.sec-3 .form-and-info .info p {
+  text-align: left;
+  line-height: 27px;
+  font-size: 14px;
+}
+.sec-3 .form-and-info .info p i {
+  margin-right: 5px;
+}
+
+footer {
+  height: 90px;
+  background: #2d3e5d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 770px) {
+  .container, .wraper {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  header .header-top {
+    justify-content: center;
+  }
+  header .header-top .header-logo {
+    margin-left: 40px;
+  }
+  header .header-top .header-menu {
+    position: absolute;
+    right: -15px;
+    top: 60px;
+    height: 0;
+    background: #ecf0f1;
+    flex-direction: column;
+    transition: .3s;
+    padding: 0;
+    overflow: hidden;
+  }
+  header .header-top .menu-bar {
+    display: block;
+    padding: 10px 11px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #444444;
+    transition: .3s;
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+  }
+  header .header-top .menu-bar:hover {
+    background: #1bbc9b;
+    color: #fff;
+  }
+  header .header-top .active {
+    background: #1bbc9b;
+    color: #fff;
+  }
+  header .header-top .menuShow {
+    height: initial;
+  }
+
+  .sec-1 .link-arr div {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .sec-1 .button-arr div {
+    margin: 0;
+  }
+
+  .sec-2 .card-arr {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec-2 .card-arr .card {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+  }
+  .sec-2 .card-arr .card .card-top {
+    margin-right: 5px;
+  }
+
+  .sec-3 .form-and-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec-3 .form-and-info .info {
+    margin: 30px 0 0 0;
+    text-align: center;
+    width: 95%;
+  }
+  .sec-3 .form-and-info .info h4 {
+    font-size: 18px;
+  }
+  .sec-3 .form-and-info form {
+    width: 100%;
+  }
+  .sec-3 .form-and-info form .form-top {
+    flex-direction: column;
+  }
+  .sec-3 .form-and-info form .form-top input {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .sec-3 .form-and-info form textarea {
+    margin-top: 5px;
+  }
+  .sec-3 .form-and-info form .form-submit input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 460px) {
+  h1 {
+    font-size: 43px !important;
+  }
+
+  header .header-top {
+    justify-content: flex-start;
+  }
+  header .header-top .header-logo {
+    margin-left: 1%;
+  }
+  header .header-top .menu-bar {
+    font-size: 22px;
+    padding: 8px 9px;
+  }
+
+  .sec-1 .button-arr {
+    display: block;
+    text-align: center;
+  }
+  .sec-1 .button-arr div {
+    margin: 3px 0;
+  }
+  .sec-1 .link-arr div {
+    width: 120px;
+    height: 120px;
+  }
+  .sec-1 .link-arr div .p-content a {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+  }
+  .sec-1 .link-arr div .p-content h3 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .sec-2 .card-arr > .card > .card-top {
+    width: 160px;
+  }
+}
